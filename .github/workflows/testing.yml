@@ -2,14 +2,6 @@ name: testing
 on: [push, pull_request]
 
 jobs:
-  terraform:
-    name: 'Terraform'
-    runs-on: ubuntu-latest
-    steps:
-      - name: 'Checkout'
-
-
-jobs:
   build:
      name: 'foo'
      runs-on: ubuntu-latest
