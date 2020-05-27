@@ -2,8 +2,6 @@ name: testing
 
 on:
   push:
-    paths:
-    - "base-images/centos-7/**"
 
 jobs:
   build:
