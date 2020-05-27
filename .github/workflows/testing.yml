@@ -1,8 +1,8 @@
 name: testing
 on: [push, pull_request]
-runs-on: ubuntu-latest
 
 jobs:
+  runs-on: ubuntu-latest
   build:
      steps:
      - uses: actions/checkout@v1
