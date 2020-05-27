@@ -1,0 +1,14 @@
+name: testing
+
+on:
+  push:
+    paths:
+    - "base-images/centos-7/**"
+
+jobs:
+  build:
+     steps:
+     - uses: actions/checkout@v1
+     - name: ls
+       run: |
+         ls -al
